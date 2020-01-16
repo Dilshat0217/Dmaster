@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24479" started-at="2020-01-16T01:24:40Z" finished-at="2020-01-16T01:25:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24479" started-at="2020-01-16T01:24:40Z" finished-at="2020-01-16T01:25:04Z">
+      <class name="com.addigy.tests.SignUpTest">
+        <test-method status="PASS" signature="navigateToSignUpPage()[pri:0, instance:com.addigy.tests.SignUpTest@7cd62f43]" name="navigateToSignUpPage" is-config="true" duration-ms="11723" started-at="2020-01-15T20:24:40Z" finished-at="2020-01-15T20:24:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToSignUpPage -->
+        <test-method status="PASS" signature="signUpTest()[pri:0, instance:com.addigy.tests.SignUpTest@7cd62f43]" name="signUpTest" duration-ms="8445" started-at="2020-01-15T20:24:51Z" finished-at="2020-01-15T20:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpTest -->
+        <test-method status="PASS" signature="verifyConfirmationPage()[pri:0, instance:com.addigy.tests.SignUpTest@7cd62f43]" name="verifyConfirmationPage" duration-ms="3627" started-at="2020-01-15T20:25:00Z" depends-on-methods="com.addigy.tests.SignUpTest.signUpTest" finished-at="2020-01-15T20:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyConfirmationPage -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.addigy.tests.SignUpTest@7cd62f43]" name="teardown" is-config="true" duration-ms="659" started-at="2020-01-15T20:25:03Z" finished-at="2020-01-15T20:25:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.addigy.tests.SignUpTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
