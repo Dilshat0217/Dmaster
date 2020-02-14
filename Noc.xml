@@ -1,0 +1,30 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="gov.cms.qtso.util.ExtentReportListener" />
+	</listeners>
+
+	<test name="NOC Smoke Test">
+
+		<groups>
+
+			<run>
+
+				<include name="NOC" />
+
+			</run>
+
+		</groups>
+
+		<classes>
+
+			<class name="gov.cms.qtso.tests.homePageTests" />
+
+		</classes>
+
+
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
